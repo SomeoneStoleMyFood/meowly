@@ -4,3 +4,4 @@ if [ "$(id -u)" -ne 0 ]; then
     exec sudo sh "$0" "$@"
 fi
 
+git clone htt
