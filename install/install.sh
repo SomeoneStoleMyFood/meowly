@@ -9,8 +9,7 @@ fi
 echo detected $OS_NAME
 echo updating system...
 if [ "$ID" = "arch" ]; then
-    sudo pacman -Syu
-    sudo pacman -S git
+    :
 else
     echo 'only arch suported for now! :('
 fi
