@@ -13,3 +13,12 @@
 
 > [!NOTE]
 > Sure that you have installed fish and foot before install
+
++ How to install? [arch]
++ Install svn: ```sudo pacman -S subversion```
++ Copy install folder in meowly reporsitory: ```svn export https://github.com/SomeoneStoleMyFood/meowly/trunk/install```
++ Get into the folder: ```cd install```
++ Start installation script: ```sh install.sh```
++ Done!
+
+  
