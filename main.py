@@ -4,9 +4,9 @@ import sys
 import time
 import keyboard
 
-if os.geteuid() != 0:
-  print("Meowly: Need root privileges to execute properly")
-  os.execvp("sudo", ["sudo", sys.executable] + sys.argv)
+#if os.geteuid() != 0:
+#  print("Meowly: Need root privileges to execute properly")
+#  os.execvp("sudo", ["sudo", sys.executable] + sys.argv)
 
 #vars
 c = "~/.config/meowly/conf.json"
