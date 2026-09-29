@@ -9,5 +9,7 @@
 
 </div>
 
+<h3>Meowly is a lightweight application designed for instant switching of Foot terminal configurations.</h3>
+
 > [!NOTE]
 > Sure that you have installed fish and foot before install
