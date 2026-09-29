@@ -2,7 +2,7 @@
 
 # Meowly
 
-![GitHub top language](https://img.shields.io/github/languages/top/SomeoneStoleMyFood/meowly)
+![GitHub top language](https://img.shields.io/github/languages/top/SomeoneStoleMyFood/meowly?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SomeoneStoleMyFood/meowly?style=for-the-badge)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/SomeoneStoleMyFood/meowly/latest?style=for-the-badge)
