@@ -40,9 +40,9 @@ echo generated
 sleep 0.1
 echo configuring fish
 CONFIG_PATH="$HOME/.config/fish/config.fish"
-BIND_CODE='bind \\\\cg "~/.config/fish/meowly/main.py foot; commandline -f repaint"'
+BIND_CODE='bind \cg "~/.config/fish/meowly/main.py foot; commandline -f repaint"'
 
-if ! grep -q "$BIND_CODE" "$CONFIG_PATH"; then
+if ! grep -qF "$BIND_CODE" "$CONFIG_PATH"; then
     echo "" >> "$CONFIG_PATH"
     echo "# bibi" >> "$CONFIG_PATH"
     echo "$BIND_CODE" >> "$CONFIG_PATH"
@@ -59,6 +59,11 @@ cat << EOF > ~/.config/meowly/conf.json
 }
 EOF
 echo rewrited
+sleep 0.1
+echo chmod
+chmod +x ~/.config/fish/meowly/main.py
+chmod +x ~/.config/fish/meowly/picker.py
+echo ok
 sleep 0.1
 echo Installed meowly 1.0!
 read -n 1 -s -r -p "Press any key to exit"
