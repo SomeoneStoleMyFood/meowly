@@ -65,5 +65,9 @@ chmod +x ~/.config/fish/meowly/main.py
 chmod +x ~/.config/fish/meowly/picker.py
 echo ok
 sleep 0.1
+echo installing depencies
+pip install keyboard
+echo installed
+sleep 0.1
 echo Installed meowly 1.0!
 read -n 1 -s -r -p "Press any key to exit"

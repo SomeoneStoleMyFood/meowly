@@ -7,12 +7,6 @@ else
 fi
 
 echo detected $OS_NAME
-echo updating system...
-if [ "$ID" = "arch" ]; then
-    :
-else
-    echo 'only arch suported for now! :('
-fi
 
 shell_name=$(basename "$SHELL")
 echo "Current shell name: $shell_name"
